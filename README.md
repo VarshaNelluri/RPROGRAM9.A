@@ -23,6 +23,12 @@ result<-chisq.test(f,p=pr,rescale.p=TRUE)
 print(result)
 tablevalue<-qchisq(.95, df=s)
 print(tablevalue)
+
+
+
+
+
+
 OUTPUT:
 > x<-c(0,1,2,3,4,5,6)
 > f<-c(7,64,140,210,132,75,12)
